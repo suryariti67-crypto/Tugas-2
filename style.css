@@ -5,15 +5,30 @@ body {
 h1 {
     text-align: center;
 }
-.instagram{
+
+.instagram {
     text-align: center;
 }
 
 .foto-lingkaran {
-  width: 200px;          /* Atur ukuran lebar sesuai keinginan Anda */
-  height: 200px;         /* Tinggi harus sama dengan lebar */
-  border-radius: 50%;    /* Membuat bentuk lingkaran */
-  object-fit: cover;     /* Mencegah foto agar tidak gepeng/penyet */
+    width: 200px;
+
+    height: 200px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+}
+h3{
+    text-align: center;
+    color: rgb(168, 75, 75);
 }
 
-
+h2{
+    text-align: center;
+    color: rgb(77, 121, 163);
+}
+.github{
+    text-align: center;
+}
