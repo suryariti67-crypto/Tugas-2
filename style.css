@@ -1,0 +1,17 @@
+body {
+
+    background-color: aqua;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.foto-lingkaran {
+  width: 200px;          /* Atur ukuran lebar sesuai keinginan Anda */
+  height: 200px;         /* Tinggi harus sama dengan lebar */
+  border-radius: 50%;    /* Membuat bentuk lingkaran */
+  object-fit: cover;     /* Mencegah foto agar tidak gepeng/penyet */
+}
+
