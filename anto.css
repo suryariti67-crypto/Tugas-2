@@ -4,3 +4,6 @@ body{
 p {
     text-align: center;
 }
+.data_diri{
+    background: linear-gradient(to right, rgb(119, 212, 212), rgb(228, 157, 228));
+}
