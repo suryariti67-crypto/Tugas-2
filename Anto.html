@@ -1,22 +1,29 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="id">
 <head>
-    <title>
-        Profile
-    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Antonius S. Riti</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="anto.css">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        table {
+            width: 100%;
+        }
+    </style>
 </head>
-
 <body>
 
+    <img src="anto.jpg" alt="Foto Antonius" class="foto-lingkaran" style="display: block; margin: auto;">
 
-    <img src="anto.jpg" alt="Gambarku" class="foto-lingkaran" style="display: block; margin: auto;">
-    <p class="instagram"><a href="https://www.instagram.com/antusriti/?hl=en">Instagram</a></p>
-
-
-
+    <p class="instagram" style="text-align: center;">
+        <a href="https://www.instagram.com/antusriti/?hl=en" target="_blank">Instagram</a>
+    </p>
 
     <div class="audio-container">
         <audio controls class="lagu">
@@ -25,96 +32,79 @@
         </audio>
     </div>
 
-    <p>
-    <h1>
+    <main>
+        <h1>Hallo Koncoku......</h1>
 
-        Hallo Koncoku......
-    </h1>
-    <p style="text-indent: 30px;">Perkenalkan saya Antonius S. Riti Saya berasal dari NTT, tepatnya Sumba Barat Daya.
-        Saya adalah mahasiswa Informatika di kampus Sanata Dharma. Saat ini saya semester 3.<br>
-        <img src="" alt="">
-    <p>
-        Sedikit cerita dari saya mengenai keseharian saya selama berkuliah di Kota Jogja ini....
-    <h3>
-        <b>
-            Daftar kegiatan
-        </b>
-    </h3>
+        <p style="text-indent: 30px;">
+            Perkenalkan saya Antonius S. Riti. Saya berasal dari NTT, tepatnya Sumba Barat Daya.
+            Saya adalah mahasiswa Informatika di kampus Sanata Dharma. Saat ini saya semester 3.
+        </p>
 
-    <ul>
-        <li>Bangun pagi mandi</li>
-        <li>Siap-siap ke kampus</li>
-        <li>Pulang nogki sama teman sama makan</li>
-        <li>Kelas lagi klau ada jam</li>
-        <li>Pulangggg</li>
-        <li>Mandii</li>
-    </ul>
+        <p style="text-indent: 30px;">
+            Sedikit cerita dari saya mengenai keseharian saya selama berkuliah di Kota Jogja ini....
+        </p>
 
-    </p>
+        <h3>Daftar Kegiatan</h3>
+        <ul>
+            <li>Bangun pagi mandi</li>
+            <li>Siap-siap ke kampus</li>
+            <li>Pulang nongkrong sama teman sama makan</li>
+            <li>Kelas lagi kalau ada jam</li>
+            <li>Pulangggg</li>
+            <li>Mandii</li>
+        </ul>
 
-    <h3>
-        <b>
-            Daftar Teman Nongkrong
-        </b>
-    </h3>
-    <ol>
-        <li>Aldi</li>
-        <li>Juan</li>
-        <li>Retno</li>
-        <li>Putra</li>
-        <li>Devan</li>
-        <li>Gerald</li>
-        <li>Mustofa</li>
-        <li>Pedro</li>
-        <li>Luiz</li>
+        <h3>Daftar Teman Nongkrong</h3>
+        <ol>
+            <li>Aldi</li>
+            <li>Juan</li>
+            <li>Retno</li>
+            <li>Putra</li>
+            <li>Devan</li>
+            <li>Gerald</li>
+            <li>Mustofa</li>
+            <li>Pedro</li>
+            <li>Luiz</li>
+        </ol>
 
-    </ol>
-    </p>
+        <p style="text-indent: 30px;">
+            Sekarang saya masuk tahun kedua perkuliahan saya di Jogja. Berikut adalah beberapa mata kuliah yang sudah saya ambil pada semester kemarin:
+        </p>
 
-    <p style="text-indent: 30px;"">
-        sekarang saya masuk tahun kedua perkuliahan saya di Jogja, berikut adalah beberapa mata.
-        kuliah yang sudah saya ambil pada semester kemarin:
+        <h2>Daftar Mata Kuliah</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Mata Kuliah</th>
+                    <th>Pengampu</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Daskomjar</td>
+                    <td>Pak Agung</td>
+                    <td>Sudah diambil</td>
+                </tr>
+                <tr>
+                    <td>PBO</td>
+                    <td>Ibu Tati</td>
+                    <td>Sudah diambil</td>
+                </tr>
+                <tr>
+                    <td>Kalkulus</td>
+                    <td>Pak Eko</td>
+                    <td>Sudah diambil</td>
+                </tr>
+            </tbody>
+        </table>
 
-        
-        <style>
-            table,
-            th,
-            td {
-                border: 1px solid black;
-            }
-        </style>
+        <div class="tautan-luar" style="margin-top: 20px;">
+            <p class="github"><a href="https://github.com/suryariti67-crypto/Tugas-2.git" target="_blank">GitHub Saya</a></p>
+            <p class="kontak"><a href="index.html">Kontak</a></p>
+            <p class="kampus"><a href="https://id.wikipedia.org/wiki/Universitas_Sanata_Dharma" target="_blank">My University</a></p>
+        </div>
+    </main>
 
-        <body>
-
-            <h2>Daftar Mata Kuliah</h2>
-
-            <table style=" width:100">
-    <table>
-        <tr>
-            <th>Mata Kuliah</th>
-            <th>Pengampu</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td>Daskomjar</td>
-            <td>Pak Agung</td>
-            <td>Sudah diambil</td>
-        </tr>
-        <tr>
-            <td>PBO</td>
-            <td>Ibu Tati</td>
-            <td>Sudah diambil</td>
-        </tr>
-        <tr>
-            <td>Kalkulus</td>
-            <td>Pak Eko</td>
-            <td>Sudah diambil</td>
-        </tr>
-    </table>
-
-    <p class="github"><a href="https://github.com/suryariti67-crypto/Tugas-2.git">GitHub Saya</a></p>
-    <p class="kontak"><a href="index.html">Kontak</a></p>
-    <p class="kampus"><a href="https://id.wikipedia.org/wiki/Universitas_Sanata_Dharma">My University</a></p>
 </body>
-
 </html>
