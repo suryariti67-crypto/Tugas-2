@@ -10,7 +10,6 @@ h1 {
     text-align: center;
 }
 
-
 .foto-lingkaran {
     width: 200px;
 
@@ -45,7 +44,6 @@ table {
 
 }
 
-
 .audio-container {
     display: flex;
     justify-content: center;
@@ -62,7 +60,6 @@ body {
     animation: fadeInSederhana 1.2s ease-out;
     text-align: justify;
 }
-
 
 @keyframes fadeInSederhana {
     from {
