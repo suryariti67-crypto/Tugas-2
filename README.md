@@ -1,3 +1,3 @@
 # Link WEB
-Buka Disini :[Klik Disini](https://github.com/suryariti67-crypto/Tugas-2/blob/main/Anto.html)
+Buka Disini :[Klik Disini](http://127.0.0.1:3000/Anto.html?vscode-livepreview=true)
 
